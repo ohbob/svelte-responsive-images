@@ -1,5 +1,5 @@
 # Svelte-responsive-images
-
+[Live Demo](https://demo.digitalsolutions.lv), [src demo](https://github.com/robertsozolins/svelte-responsive-images/tree/master/demo_post),
 Svelte-responsive-images is a preprocessor which automates image optimization using [sharp](https://github.com/lovell/sharp).
 
 It parses your `img` tags, optimizes and replaces src accordingly to the width of the parent element. (External images are not optimized.)
@@ -48,7 +48,7 @@ Now you can the  component, but note that we aren't adding any extensions to the
 
 ## Component
 
-The component adjusts srcset to the width of the parent container. In the [demo](https://github.com/robertsozolins/svelte-responsive-images/tree/master/demo_post) example, it's 1050px wide.
+The component adjusts srcset to the width of the parent container. In the [demo](https://demo.digitalsolutions.lv) example, it's 1050px wide.
 
        <picture>
 	       <source type="image/webp"
