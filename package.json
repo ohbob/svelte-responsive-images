@@ -58,5 +58,5 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "svelte": "runtime/index.js",
-  "version": "1.0.10"
+  "version": "1.0.11"
 }
