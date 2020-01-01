@@ -22,8 +22,10 @@ Edit your rollup configuration.
 	    ]
 
 Now you can the  component, but note that we aren't adding any extensions to the filename.
-
-    import { Image } from "svelte-responsive-images";
+	<script>
+    	import { Image } from "svelte-responsive-images";
+	</script>
+	
     <Image src="1" />
 
 ## How does the optimization work?
