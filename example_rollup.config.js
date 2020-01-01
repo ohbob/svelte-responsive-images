@@ -4,7 +4,7 @@ import commonjs from 'rollup-plugin-commonjs';
 import livereload from 'rollup-plugin-livereload';
 import { terser } from 'rollup-plugin-terser';
 // ----------------------------------------------
-import {ImageOptim} from './src/components/svelte-responsive-images/imageOptim.js'
+import { imageOptimizer } from 'svelte-responsive-images'
 // ----------------------------------------------
 const production = !process.env.ROLLUP_WATCH;
 
@@ -17,7 +17,7 @@ export default {
 		file: 'public/build/bundle.js'
 	},
 	plugins: [
-		ImageOptim(),
+		imageOptimizer(),
 		svelte({
 			// enable run-time checks when not in production
 			dev: !production,

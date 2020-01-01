@@ -1,5 +1,5 @@
 <script>
-	import Image from "./svelte-responsive-images/index.svelte"
+	import { Image } from "svelte-responsive-images";
 </script>
 
 <article>

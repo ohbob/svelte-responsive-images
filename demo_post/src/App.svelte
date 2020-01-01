@@ -1,5 +1,5 @@
 <script>
-import Image from "./components/svelte-responsive-images/index.svelte"
+import { Image } from "svelte-responsive-images";
 import Post from "./components/Post.svelte"
 </script>
 
