@@ -57,7 +57,7 @@
      };
  };
 
- export function ImageOptim(){
+function ImageOptim(){
     fromDir(`${pathPublic}`, '.jpg');
     fromDir(`${pathPublic}`, '.png');
     process.stdout.write("\rImage optimization done                                                   ");
