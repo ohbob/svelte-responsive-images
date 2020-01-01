@@ -1,0 +1,62 @@
+{
+  "_from": "svelte-responsive-images@^1.0.1",
+  "_id": "svelte-responsive-images@1.0.3",
+  "_inBundle": false,
+  "_integrity": "sha512-V6Rd/jA0DB8sIsGb3yreU9ZPJ7P+gBpw6qET8nu+PA8W7k41U9IPNERWoVt5RJN3q3hVnmsxo92GU3Hw4IxXJg==",
+  "_location": "/svelte-responsive-images",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "svelte-responsive-images@^1.0.1",
+    "name": "svelte-responsive-images",
+    "escapedName": "svelte-responsive-images",
+    "rawSpec": "^1.0.1",
+    "saveSpec": null,
+    "fetchSpec": "^1.0.1"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/svelte-responsive-images/-/svelte-responsive-images-1.0.3.tgz",
+  "_shasum": "a723ae3536eb8a1c9d659a3fb4a71586507e86be",
+  "_spec": "svelte-responsive-images@^1.0.1",
+  "_where": "F:\\test123\\my-svelte-project2",
+  "author": {
+    "name": "Roberts Ozolins"
+  },
+  "bugs": {
+    "url": "https://github.com/robertsozolins/svelte-responsive-images/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "sharp": "^0.23.3"
+  },
+  "deprecated": false,
+  "description": "Responsive images made easy. Automatic srcset handling(according to parent not window), lazy loading, jpg,webp, image placeholder and many more features..",
+  "directories": {
+    "lib": "lib"
+  },
+  "homepage": "https://github.com/robertsozolins/svelte-responsive-images#readme",
+  "keywords": [
+    "svelte",
+    "sharp",
+    "responsive",
+    "images",
+    "image",
+    "optimization"
+  ],
+  "license": "ISC",
+  "main": "lib/index.js",
+  "name": "svelte-responsive-images",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robertsozolins/svelte-responsive-images.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "svelte": "runtime/index.js",
+  "version": "1.0.3"
+}

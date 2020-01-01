@@ -1,0 +1,1 @@
+export { default as Image } from '../src/components/svelte-responsive-images/index.svelte'
