@@ -1,0 +1,31 @@
+{
+  "name": "svelte-responsive-images",
+  "version": "1.0.0",
+  "description": "Responsive images made easy. Automatic srcset handling(according to parent not window), lazy loading, jpg,webp, image placeholder and many more features..",
+  "main": "lib/index.js",
+  "svelte": "runtime/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robertsozolins/svelte-responsive-images.git"
+  },
+  "keywords": [
+    "svelte",
+    "sharp",
+    "responsive",
+    "images",
+    "image",
+    "optimization"
+  ],
+  "author": "Roberts Ozolins",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/robertsozolins/svelte-responsive-images/issues"
+  },
+  "homepage": "https://github.com/robertsozolins/svelte-responsive-images#readme"
+}
