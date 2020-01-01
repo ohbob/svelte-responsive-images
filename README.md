@@ -25,8 +25,10 @@ Now you can the  component, but note that we aren't adding any extensions to the
 	<script>
     	import { Image } from "svelte-responsive-images";
 	</script>
-	
+
     <Image src="1" />
+	<Image src="1" w="500px" c="rounded"> // w=maxwidth, c=class(has to be global)
+
 
 ## How does the optimization work?
 
