@@ -5,7 +5,7 @@ It parses your `img` tags, optimizes and replaces src accordingly to the width o
 
 `Image` component enables lazyloading and serving webp and a fallback jpg with multiple sizes via `srcset`, and sets a tiny 10x10 placeholder of the source image, while the larger image is loading.
 
-[Live Demo](https://demo.digitalsolutions.lv), [src demo](https://github.com/robertsozolins/svelte-responsive-images/tree/master/demo_post)
+[Live Demo](https://demo.digitalsolutions.lv), [src demo](https://github.com/robertsozolins/svelte-responsive-images-demo)
 
 # Install
     npm i svelte-responsive-images
