@@ -13,8 +13,9 @@ It parses your `img` tags, optimizes and replaces src accordingly to the width o
 # Usage
 Edit your rollup configuration.
 
-    # rollup.config.js
+    # in rollup.config.js
     import { imageOptimizer } from 'svelte-responsive-images'
+	....
     plugins: [
 	    ImageOptimizer(),
 	    ....
