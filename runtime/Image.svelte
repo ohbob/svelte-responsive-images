@@ -13,7 +13,7 @@
     }
 </script>
 
-<div class:loaded style="width: {w};">
+<div class:loaded style="width: 100%; max-width:{w}">
     <div style="overflow: hidden;" bind:offsetWidth={containerWidth}>
         {#if !loaded}
         <img out:fade="{{duration: 300}}" class="placeholder blur" src="./images/jpg/{src}-10.jpg" alt="placeholder">
@@ -22,7 +22,8 @@
 				<source type="image/webp" srcset={getImageSrc({src}, "webp" , {containerWidth})}>
 				<source srcset={getImageSrc({src}, "jpg" , {containerWidth})}>
 				<img use:load class="main {c}" alt="alt" srcset="./images/jpg/{src}-10.jpg"
-						 onerror="this.src = 'noPhotoFound.png';" loading="lazy">
+				    onerror="this.src = 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mMszXpSDwAFYwJEhxButQAAAABJRU5ErkJggg==';"
+				    loading="lazy">
 			</picture>
 		</div>
 </div>
