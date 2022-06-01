@@ -31,7 +31,7 @@
   },
   "bundleDependencies": false,
   "dependencies": {
-    "sharp": "^0.23.3"
+    "sharp": "^0.30.5"
   },
   "deprecated": false,
   "description": "Responsive images made easy. Automatic srcset handling(according to parent not window), lazy loading, jpg,webp, image placeholder and many more features..",
