@@ -44,10 +44,6 @@
         type="image/webp"
         srcSet={getImageSrc({ src }, "webp", { containerWidth })}
       />
-      <source
-        type="image/jpg"
-        srcSet={getImageSrc({ src }, "jpg", { containerWidth })}
-      />
       <source srcSet={getImageSrc({ src }, "jpg", { containerWidth })} />
       <img
         use:load
